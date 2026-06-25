@@ -1,0 +1,1 @@
+select * from FROM {{ source('raw', 'SALES_2024') }}

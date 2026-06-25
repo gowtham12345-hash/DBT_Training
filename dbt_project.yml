@@ -52,3 +52,10 @@ models:
      
     mat:
       +materialized: view
+
+
+    jinja:
+      +materialized: view
+
+    
+  

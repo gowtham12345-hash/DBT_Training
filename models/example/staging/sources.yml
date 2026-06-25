@@ -9,3 +9,9 @@ sources:
     tables:
       - name: CUSTOMERS
       - name: ORDERS
+
+      - name: SALES_2024
+      - name: SALES_2025
+
+
+    
