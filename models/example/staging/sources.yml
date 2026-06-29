@@ -13,5 +13,7 @@ sources:
       - name: SALES_2024
       - name: SALES_2025
 
+      - name: employee_details
+
 
     

@@ -13,3 +13,13 @@ models:
       - name: CUSTOMER_ID
         tests:
           - not_null
+
+
+  
+  - name: orders
+    columns:
+      - name: order_ID
+        tests:
+           - unique
+           - not_null
+          

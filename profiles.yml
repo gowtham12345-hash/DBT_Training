@@ -1,0 +1,37 @@
+my_new_project:
+  target: dev
+
+  outputs:
+    dev:
+      type: snowflake
+      account: GZUSINV-QOB73840
+      user: Gowthamraj
+      password: Charu@s123456789
+      role: ACCOUNTADMIN
+      warehouse: NEW
+      database: DBT_DEMO
+      schema: RAW
+      threads: 4
+
+    qa:
+      type: snowflake
+      account: GZUSINV-QOB73840
+      user: Gowthamraj
+      password: Charu@s123456789
+      role: ACCOUNTADMIN
+
+      warehouse: NEW
+      database: DBT_DEMO
+      schema: STAGING
+      threads: 4
+
+    prod:
+      type: snowflake
+      account: GZUSINV-QOB73840
+      user: Gowthamraj
+      password: Charu@s123456789
+      role: ACCOUNTADMIN
+      warehouse: NEW
+      database: DBT_DEMO
+      schema: MARTS
+      threads: 4
