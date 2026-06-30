@@ -15,5 +15,10 @@ sources:
 
       - name: employee_details
 
+      - name: employee
+      - name: ORDER_DELINS_TAB
+
+      - name: SALES_SOURCE
+
 
     
