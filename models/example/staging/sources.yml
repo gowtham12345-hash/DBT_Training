@@ -20,5 +20,10 @@ sources:
 
       - name: SALES_SOURCE
 
+      - name: customer_master
+
+
+
+
 
     
