@@ -1,0 +1,13 @@
+exposures:
+  - name: custom_dashboard
+    label: Sales Performance Dashboard
+    type: dashboard
+    maturity: high
+    url: https://bi-tool.company.com/dashboards/123
+    description: >
+      Executive dashboard tracking daily sales, revenue, and targets.
+    owner:
+      name: Data Team
+      email: data-team@company.com
+    depends_on:
+      - ref('fact_sales')
