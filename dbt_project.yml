@@ -50,8 +50,7 @@ models:
     marts:
       +materialized: table
      
-    mat:
-      +materialized: view
+   
 
 
     jinja:

@@ -1,0 +1,6 @@
+SELECT
+    CUSTOMER_ID,
+    COUNT(*) AS TOTAL_ORDERS,
+    SUM(TOTAL_AMOUNT) AS TOTAL_REVENUE
+FROM {{ ref('int_customer_orders') }}
+GROUP BY CUSTOMER_ID

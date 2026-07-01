@@ -22,6 +22,8 @@ sources:
 
       - name: customer_master
 
+      - name: orders_details
+
 
 
 
