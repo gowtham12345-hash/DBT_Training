@@ -56,5 +56,11 @@ models:
     jinja:
       +materialized: view
 
+    stg_airflow:
+      +materialized: view
+
+    mart_airflow:
+      +materialized: view
+
     
   
