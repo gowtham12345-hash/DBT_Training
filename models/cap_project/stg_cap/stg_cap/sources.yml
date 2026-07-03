@@ -24,6 +24,10 @@ sources:
 
       - name: orders_details
 
+      - name: TRIPS
+
+      - name: TRIP_EVENTS
+
 
 
 
